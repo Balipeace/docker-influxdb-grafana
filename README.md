@@ -103,6 +103,6 @@ Port: 8086
 2. Launch `influx` to open InfluxDB Shell (CLI)
 
 
-[grafana-version]: https://img.shields.io/badge/Grafana-6.6.0-brightgreen
+[grafana-version]: https://img.shields.io/badge/Grafana-6.5.0-brightgreen
 [influx-version]: https://img.shields.io/badge/Influx-1.7.9-brightgreen
 [chronograf-version]: https://img.shields.io/badge/Chronograf-1.7.15-brightgreen
