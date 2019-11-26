@@ -4,7 +4,6 @@
 
 ![Grafana][grafana-version] ![Influx][influx-version] ![Chronograf][chronograf-version]
 
-[![Buy me a coffee][buymeacoffee-icon]][buymeacoffee]
 
 
 This is a Docker image based on the awesome [Docker Image with Telegraf (StatsD), InfluxDB and Grafana](https://github.com/samuelebistoletti/docker-statsd-influxdb-grafana) from [Samuele Bistoletti](https://github.com/samuelebistoletti).
@@ -19,9 +18,9 @@ The main purpose of this image is to be used to show data from a [Home Assistant
 
 | Description  | Value   |
 |--------------|---------|
-| InfluxDB     | 1.7.7   |
-| ChronoGraf   | 1.7.12  |
-| Grafana      | 6.4.1   |
+| InfluxDB     | 1.7.9   |
+| ChronoGraf   | 1.7.15  |
+| Grafana      | 6.5.0   |
 
 ## Quick Start
 
@@ -103,9 +102,7 @@ Port: 8086
 1. Establish a ssh connection with the container
 2. Launch `influx` to open InfluxDB Shell (CLI)
 
-[buymeacoffee-icon]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/philhawthorne
 
-[grafana-version]: https://img.shields.io/badge/Grafana-6.4.1-brightgreen
-[influx-version]: https://img.shields.io/badge/Influx-1.7.7-brightgreen
-[chronograf-version]: https://img.shields.io/badge/Chronograf-1.7.12-brightgreen
+[grafana-version]: https://img.shields.io/badge/Grafana-6.6.0-brightgreen
+[influx-version]: https://img.shields.io/badge/Influx-1.7.9-brightgreen
+[chronograf-version]: https://img.shields.io/badge/Chronograf-1.7.15-brightgreen
